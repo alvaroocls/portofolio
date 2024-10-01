@@ -1,0 +1,294 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.sf-thin {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+  
+.sf-light {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.sf-regular {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sf-medium {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.sf-bold {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+}
+
+.sf-black {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 900;
+}
+
+.sf-thin-italic {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.sf-light-italic {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.sf-regular-italic {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.sf-medium-italic {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.sf-bold-italic {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.sf-black-italic {
+    font-family: "San Francisco", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.font-xlarge{
+    font-size: 3rem;
+}
+
+.font-large{
+    font-size: 2rem;
+}
+
+.font-medium{
+    font-size: 1.5rem;
+}
+
+.font-small{
+    font-size: 1rem;
+}
+
+.navbar{
+    display: flex;
+    padding : 2rem 8rem 2rem 8rem;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    transform: scale(1.2);
+    background-color: #374151;
+    border-radius: 1rem;
+}
+
+.profile{
+    display: flex;
+    max-width: 75%;
+    align-items: center;
+    margin : auto;
+    margin-top : 8rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+.profiletext{
+    max-width: 50%;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.icons{
+    display : flex;
+    margin-top: 2rem;
+}
+
+.icons img{
+    margin-right: 0.5rem;
+}
+.icon{
+    width : 2rem;
+    height: 2rem;
+}
+
+.image-container {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+.foto {
+    position: relative;
+    z-index: 2; 
+    width: 20%; 
+    height:auto;
+}
+
+.blob {
+    right : -4rem;
+    top : -1rem;
+    position: absolute;
+    z-index: 1;
+    width: 30%;
+}
+
+.break{
+    margin-top : 13rem;
+}
+
+.skills{
+    background-color : #111827;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.skills p {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 0.5rem 1.75rem;
+    border-radius: 1rem;
+    background-color: #374151;
+    color: #ffffff;
+    border: none;
+}
+
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+}
+
+.skillsimg{
+    height: 100px; 
+    width: auto;
+    transition : transform 0.3s;
+    transition-timing-function: ease-in-out;    
+}
+
+.skillslogo{
+    display: flex;
+    justify-content:center;
+    margin-top: 4rem;
+}
+
+.skillslogo img:hover{
+    transform: scale(1.2);
+}
+
+.imgtextcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin : 0 2rem 0 2rem
+}
+
+.projects{
+    padding-top: 8rem;
+    }
+
+.cardcontainer{
+    /* border : 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin: auto;
+    background-color: #374151;
+    border-radius: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cardleft{
+    /* border : 1px solid red; */
+    max-width: 50%;
+    padding: 2rem;
+    /* padding: 2rem; */
+}
+
+.cardright{
+    max-width: 50%;
+    background-color: #1F2937;
+    border-radius: 0 2rem 2rem 0;
+}
+
+.projectimg{
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.containertext{
+    max-width: 80%;
+    padding : 2rem 2rem 0 2rem;
+}
+
+.techstack{
+    padding : 0 2rem 2rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* border : 1px solid red; */
+}
+
+.cardleft2{
+    max-width: 50%;
+    background-color: #1F2937;
+    border-radius: 2rem 0 0 2rem;
+    /* border : 1px solid red; */
+}
+
+.cardright2{
+    max-width: 50%;
+    padding : 2rem
+    /* border : 1px solid red; */
+}
+
+.externallink{
+    width: 28px;
+    height: auto;
+    padding-left: 2rem
+}
