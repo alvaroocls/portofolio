@@ -328,7 +328,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 2rem 0 8rem 0
+    padding: 2rem 0 200msrem 0
 }
 
 .footer{
@@ -365,4 +365,13 @@ button {
 
 .imgtextcontainer:nth-child(5){
     transition-delay : 500ms;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cvbutton{
+    padding: 3rem 0 3rem 0;
 }
