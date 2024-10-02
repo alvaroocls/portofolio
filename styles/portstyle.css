@@ -91,6 +91,10 @@ html{
     font-size: 1.5rem;
 }
 
+.font-normal{
+    font-size: 1.25rem;
+}
+
 .font-small{
     font-size: 1rem;
 }
@@ -291,4 +295,74 @@ button {
     width: 28px;
     height: auto;
     padding-left: 2rem
+}
+
+.contacts{
+    background-color: #111827;
+}
+
+.textcontainer{
+    max-width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.textcontainer h1{
+    margin : 3rem 0 3rem 0;
+}
+
+.contactcontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 3rem;
+}
+
+.contacticon{
+    width : 2rem;
+    height: auto;
+}
+
+.socmedcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0 8rem 0
+}
+
+.footer{
+    display: flex;
+    justify-content: center;  
+    padding: 0.5rem 0 0.5rem 0;
+    align-items: center;
+}
+
+.hidden{
+    opacity: 0;
+    transition : all 1s ease-in-out;
+    filter: blur(3px);
+    /* transform: translatex(-100%); */
+}
+
+.show{
+    opacity: 1;
+    filter : blur(0px);
+    /* transform: translatex(0%); */
+}
+
+.imgtextcontainer:nth-child(2){
+    transition-delay : 200ms;
+}
+
+.imgtextcontainer:nth-child(3){
+    transition-delay : 300ms;
+}
+
+.imgtextcontainer:nth-child(4){
+    transition-delay : 400ms;
+}
+
+.imgtextcontainer:nth-child(5){
+    transition-delay : 500ms;
 }
