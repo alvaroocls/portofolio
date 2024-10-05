@@ -71,6 +71,9 @@
     font-style: italic;
   }
   
+body{
+  background-color: #111827;
+}
 
 .foto{
     max-width: 120px;
@@ -83,19 +86,19 @@
 }
 
 .container-profile {
-max-width: 50%;
+/* max-width: 50%; */
 margin: auto;
 display: flex;
 margin-top : 2rem;
 }
 
 .container{
-    max-width: 50%;
+    /* max-width: 50%; */
     margin: auto;
 }
 
 .line {
-    width: 50%;
+    /* width: 50%; */
     margin: 0 auto;
     border-bottom: 1px solid black;
     margin-top: 1rem;
@@ -137,4 +140,12 @@ table,th,td{
 
 a{
     color: black;
+}
+
+.mainsection{
+  max-width:55%;
+  background-color: white;
+  padding : 1rem 2rem 2rem 2rem;
+  border-radius: 1rem;
+  margin : 4rem auto 4rem auto;
 }

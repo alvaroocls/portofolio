@@ -170,13 +170,24 @@ html{
     height:auto;
 }
 
-.blob {
+.glowing-circle {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0px; 
+    right: -40px; 
+    background: rgba(59, 82, 133, 0.9);
+    border-radius: 50%;
+    filter: blur(60px);
+    z-index: 1; 
+}
+/* .blob {
     right : -4rem;
     top : -1rem;
     position: absolute;
     z-index: 1;
     width: 30%;
-}
+} */
 
 .break{
     margin-top : 13rem;
@@ -207,10 +218,13 @@ button {
 }
 
 .skillsimg{
-    height: 100px; 
+    height: 75px; 
     width: auto;
-    transition : transform 0.3s;
-    transition-timing-function: ease-in-out;    
+    transition : all 0.3s;
+    transition-timing-function: ease-in-out;
+    background-color: rgba(55, 65, 81, 0.1);
+    padding: 1.5rem; 
+    border-radius: 1rem;
 }
 
 .skillslogo{
@@ -221,6 +235,7 @@ button {
 
 .skillslogo img:hover{
     transform: scale(1.2);
+    background-color: rgba(55, 65, 81, 0.5);
 }
 
 .imgtextcontainer{
@@ -263,6 +278,7 @@ button {
     width: 100%;
     height: auto;
     border-radius: 1rem;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.2);
 }
 
 .containertext{
