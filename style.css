@@ -660,7 +660,7 @@ section {
 }
 
 .card {
-    background: linear-gradient(135deg, var(--white) 0%, rgba(10, 10, 10, 0.95) 100%);
+    background: var(--gray-100);
     padding: 1.75rem;
     border-radius: 12px;
     box-shadow: var(--shadow-sm);
@@ -732,8 +732,6 @@ section {
 .org-card::after {
     display: none;
 }
-}
-
 .org-card::after {
     display: none;
 }
@@ -747,7 +745,7 @@ section {
     height: 60px;
     margin-bottom: 1rem;
     padding: 8px;
-    background: var(--white);
+    background: var(--gray-50);
     border-radius: 8px;
     border: 1px solid var(--gray-300);
     display: flex;
@@ -1389,11 +1387,13 @@ section {
 }
 
 .card {
-    opacity: 0;
-    transform: translateY(40px);
+    opacity: 1;
+    transform: none;
 }
 
 .card.fade-up {
+    opacity: 0;
+    transform: translateY(40px);
     animation: fadeUp 0.6s ease forwards;
 }
 
